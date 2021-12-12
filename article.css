@@ -1,0 +1,62 @@
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+        font-family:'Playfair Display', serif,Arial, Helvetica, sans-serifS ;
+        color: white;
+        user-select: none;
+    
+    }
+
+
+body{
+    
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+   
+}
+
+.d-1{
+    text-align: center;
+    background-image: linear-gradient(rgba(97, 96, 97, 0.6),rgba(8, 8, 8, 0.8),rgba(10, 10, 10, 0.8)), url("front.jpg");
+    background-size: cover;
+    padding-top: 2%;
+   
+    color: white;
+    
+    
+}
+
+#h1{
+    color: white;
+    font-size: 70px;
+
+   
+}
+
+
+
+#nav{
+    display:inline-flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.na{
+    justify-content: space-around;
+    padding: 50px;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: red;
+    
+}

@@ -1,0 +1,40 @@
+.insta{
+    align-items: center;
+
+    margin-bottom: 2%;
+    margin-left: 30%;
+    
+}
+
+.gear{
+
+    text-align: center;
+    position: relative;
+    color:black;
+    
+}
+
+.gear::before{
+    content: "";
+    display:block;
+    width:450px;
+    height:2px;
+    position: absolute;
+    background:rgb(3, 3, 3);
+    left:0;
+    top: 50%;
+    
+    
+}
+
+.gear::after{
+    content: "";
+    display:block;
+    width:450px;
+    height:2px;
+    position: absolute;
+    background:rgb(14, 13, 13);
+    right:0;
+    top: 50%;
+   
+}
